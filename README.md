@@ -1,16 +1,9 @@
-# to_do
+# To-Do приложение с серверным хранилищем
 
-A new Flutter project.
+Это простое To-Do приложение, которое хранит ваши заметки на сервере, построенном с использованием FastAPI, а не на вашем устройстве. Это обеспечивает синхронизацию данных на всех ваших устройствах.
 
-## Getting Started
+## Особенности
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* *Серверное хранилище:* Заметки хранятся на сервере, что позволяет получать к ним доступ с любого устройства.
+* *Синхронизация:* Ваши заметки автоматически синхронизируются между устройствами.
+* *FastAPI backend:* Быстрый и надежный backend, построенный на основе FastAPI.
